@@ -44,11 +44,6 @@ def read_and_sort_words(filename):
             print("Довжина тексту")
             print(f"{len(ukrainian_words) + len(english_words)}")
 
-            # # Вивести українські слова, а потім англійські
-            # print("Українські слова по довжині:")
-            # print(ukrainian_words_len)
-            # print("Англійські слова по довжині:")
-            # print(english_words_len)
     except FileNotFoundError:
         print(f"Файл '{filename}' не знайдено.")
     except Exception as e:
