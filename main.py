@@ -39,9 +39,7 @@ def read_and_sort_words(filename):
 
             # Вивести українські слова, а потім англійські
             print("Українські слова по алфавіту:")
-            print(ukrainian_words)
-            print("Англійські слова по алфавіту:")
-            print(english_words)
+            print(ukrainian_words + english_words)
 
             print("Довжина тексту")
             print(f"{len(ukrainian_words) + len(english_words)}")
